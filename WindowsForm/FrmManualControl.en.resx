@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnDropVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 68</value>
+  </data>
+  <data name="btnDropVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnWobbleReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 119</value>
+  </data>
+  <data name="btnWobbleReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnLaserReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 119</value>
+  </data>
+  <data name="btnLaserReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnRaiseVoltage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 68</value>
+  </data>
+  <data name="btnRaiseVoltage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnManualCloseRedLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 170</value>
+  </data>
+  <data name="btnManualCloseRedLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnCloseProtectGas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 119</value>
+  </data>
+  <data name="btnCloseProtectGas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnCloseLaser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 68</value>
+  </data>
+  <data name="btnCloseLaser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnSureWobbleMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 220</value>
+  </data>
+  <data name="btnWobbleHeadClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 221</value>
+  </data>
+  <data name="btnWobbleHeadClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="cbBoxWobbleMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 227</value>
+  </data>
+  <data name="cbBoxWobbleMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="btnSureLaserModeG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 182</value>
+  </data>
+  <data name="btnWobbleHeadOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 221</value>
+  </data>
+  <data name="btnWobbleHeadOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 232</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 12</value>
+  </data>
+  <data name="cbBoxSLaserMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 189</value>
+  </data>
+  <data name="cbBoxSLaserMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 20</value>
+  </data>
+  <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 192</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 12</value>
+  </data>
+  <data name="btnManualOpenRedLight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 170</value>
+  </data>
+  <data name="btnManualOpenRedLight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnOpenProtectGas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 119</value>
+  </data>
+  <data name="btnOpenProtectGas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="btnOpenLaser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 42</value>
+  </data>
+  <data name="chkBoxConnectlaser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 20</value>
+  </data>
+  <data name="gBoxLaserControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 274</value>
+  </data>
+  <data name="btnToZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>446, 100</value>
+  </data>
+  <data name="btnToHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>138, 94</value>
+  </data>
+  <data name="gBoxHomeAxis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>818, 73</value>
+  </data>
+  <data name="tBoxDirect3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>445, 23</value>
+  </data>
+  <data name="chkBoxAxis3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 26</value>
+  </data>
+  <data name="chkBoxAxis3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="tBoxDirect2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>231, 29</value>
+  </data>
+  <data name="chkBoxAxis2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 32</value>
+  </data>
+  <data name="chkBoxAxis2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="chkBoxAxis1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="gBoxIOControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 433</value>
+  </data>
+  <data name="gBoxIOControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>831, 295</value>
+  </data>
+  <data name="btnCloseAirKnife.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 26</value>
+  </data>
+  <data name="btnCloseAirKnife.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnOpenAirKnife.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 26</value>
+  </data>
+  <data name="btnOpenAirKnife.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnTrolleyOver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 179</value>
+  </data>
+  <data name="btnTrolleyOver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnTrolleyLeave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 179</value>
+  </data>
+  <data name="btnTrolleyLeave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnConveyorBeltStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 230</value>
+  </data>
+  <data name="btnConveyorBeltStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnConveyorBeltFlip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 230</value>
+  </data>
+  <data name="btnConveyorBeltFlip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnConveyorBeltForward.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 230</value>
+  </data>
+  <data name="btnConveyorBeltForward.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnLightClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>629, 77</value>
+  </data>
+  <data name="btnLightClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnBlockCylinder2Down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 128</value>
+  </data>
+  <data name="btnBlockCylinder2Down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnBlockCylinder2Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 128</value>
+  </data>
+  <data name="btnBlockCylinder2Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnLightOpen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 77</value>
+  </data>
+  <data name="btnLightOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnUPCylinderDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 77</value>
+  </data>
+  <data name="btnUPCylinderDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnUPCylinderUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 77</value>
+  </data>
+  <data name="btnUPCylinderUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnDoor2Down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 179</value>
+  </data>
+  <data name="btnDoor2Down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnDoor1Down.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 128</value>
+  </data>
+  <data name="btnDoor1Down.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnDoor2Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 179</value>
+  </data>
+  <data name="btnDoor2Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnRangCylinderClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 26</value>
+  </data>
+  <data name="btnRangCylinderClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnDoor1Up.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 128</value>
+  </data>
+  <data name="btnDoor1Up.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="btnRangCylinderOpen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 43</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>857, 735</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAD4//X9//r//P//+v//+v///f7///j8//f8//z//vz//fz//vz///78/f75/v3+//n9//z6/v77/f//
+        /f3///79//3///r///v///78/f79/f////7///v///v////////4/v79/v7//P///P/+/P/9/vv7//b9
+        /vj//vv///r///v///v+///4/P/4/f7+//r8///5/v/8/P///v3////9/////vz///39///5/f/6/f/9
+        //////3//vz////////4+f/9/f///v7+/v34/P33/vz4//v+/vr//fn+/vv6/fn7/vz9/vz+/P3+/f3+
+        //v7/v/4+//6+v///f7//f37/f78/fz9/v76/Pz6/f/4+//6/P77+/r+/v7////////7+////v3///j8
+        /vj2/v70/v/3/P74+ff9//v4//z5/v/2/Pz9/vz//fb//vf+//36/P/4+v///v/7+Pf///39+/35/P36
+        /f77///2+vv7/f35/v76/f38/f3////////8//////n///P6//j1/v7y+f/7+v/6/Pf5//r4//z4/f/3
+        /v/6/Pr///b//vP+/v/6+//7/P/+/fz+/ff9+vT++/34+/z5/f38/P39/vz8/fr8/f73+/z5/Pz/////
+        ///8//7///f///X8//v3/v/7/f7//fT///T///b///r///j///j8//r5//z1/fz9/v/7/P/9/f7//vn/
+        //L//vT9+vz3+/z5/f3///39+fD//fb+/fn4/fz4+/z9///9///7/v3//vr//vz7/P73/P3+//X//+bw
+        5rXfvIHOrGrcvXjq36j//OH9//33+//9/f78/f/+/vz///L//+3+/O3//f36/f77/vz++e7///b///T/
+        /fT7/fz6//78//78//77/P///f///f76+//5+/r//+3KuX+qdB62bgq2cwKvcQCodQrDoFj//+n//f/+
+        /f79/f////ru7tisqIL///H//fr7/f39//v//fL68dmvoof///L8/fn6/v75/v75///9/f76//3///X1
+        /P7///zm0JeebAbBfALKfQHHfQjIfwK+fwGlcQDLpmL////8///3+/3///zUyZiAXgz/99T///36/fn3
+        +Pz////bzpd+XhL58s/8//35/f/2/f7m+vv9//v4/v7///P5//3//+2fdB/DgALLggDPhAHGfgjMgAHD
+        ggDChACkbQbx5cr8///6/v////rGq2CkawDq2Kn////7/vf5+v/////NqFabbgDn2qT+///8/P38/v/D
+        1db+//n4/f///fn////k27KgcAzCgAHIggDGfwDGfgHPgwDEggC/ggKwdQLKsHz////+//r///yxjzyr
+        bQDYtn7///v9//n6+/////+4hyykcADavIH9/////Pj//P75/v////j4+///+/7////FsHKyegLIgQDD
+        gAPEgQHLgwHOhADFgwLAgALDfgCyjz3///////f//+ineRjBfQC7jkf///n8/vr5+////+isbwW3fgLA
+        l1H///////j99fb39vb///f4+///+v////q0lES9fQDNhQDBfwPDggLCgADJgQDIgQLEgAXMgQCwgBf/
+        /+3///3z6cWocQXAeQCydiD//+L4//z+///t3rO1bwCydwC4gi7///b//vX+/f39/Pv+//n0/P/9/P//
+        //OzhzHKgwDOhQLBfgHAfwDLjxHDgALJgAPIfwTShgCwfgv49uH////i0p6obgDSkBuvbQ327cP6////
+        ///avHy7cwDAiyGxcRP49dz///v7+/r4/vv9//j0/P/7/v///+y4hS7LfQDKgQHHgADCfADntEC8fgzL
+        fgPKfgPLgQCwfAv289r////OsW6jagD/2XqnYwDeypH8///////Fl0a2cgXizHiuZQHr3rP8///3//72
+        /v78//zz//74//z//+u8gy7KfALGgAPNggDEewDlskq0exPOfgLLfgTHgACveg7389j///+1jj2odBD/
+        /8qnZgTApF7//////+6xeRvAii/68rqpYADfv4H9///4/v73/v/6///2//35//v//+y7gi/HegXFfwPN
+        ggDEegDlr06yeRXOfwDJgAPBfgSueRL49dn///Oqex60iTH//+6yeiKshTT//+/17s2qbQjKqWD//+Cq
+        ZArKpFb////8/f76/f/8///5/v77/////+25hC7DfAPFgQLKggDDegDlr0+2eRPPggDIgwO+fAWydxP6
+        99j17dKlbgnKr2b////GnlaicBD//tPk0JmhYgDazqH///O2eyu1hS3//+z//v76//79//7+/f7+/v//
+        /+63hyrAfgDEggLHgQDBegDor026eg/RgwDDhQK+fga4eBD7+dbp1qqcYQDg05j////bxIqhZQDz6q7W
+        rWidYAD7+t////fJmlijbhD4+NP///75//z///3//f7//f///++4iCbCgQDFggDFgADAegDnrky9ewzQ
+        hADDhgPAfgK8eQ///tnXtnygZgD58Lz////257ieYgDkzX7DlkCqdBP///r///XTtYGbZALw7b3///71
+        //v7/f7+/vf6/P////S5hyXLfgDHgATGgQHFeQDisEu/fQzNgwDCgAXMgAC5eBH//9W/lkWjcw///9//
+        /f/9/tyjeBfFlSvBfxWzk0f///n////r3LqZYwDt0Jr////a9fT+/P3///P7/v////K7iyLQfwDJgATH
+        ggLFegDesE29fgvJgwDCfgfMggC1eRT888SygCSyizP///P//f///++4kTm2eAK2dADOwIb///X////3
+        89ykbQLUsG3///+3zs7/+/z///L+/vz///C8iyPNgADGhALGhAHDegDfsU28gAvIgwDAfwfJgQC1fBXw
+        6LGjcQ7EqGH////4+v/////QrV69eQCqcQDs363///37//n7/eyueRrElT7///Lz///4+f////v8/v//
+        //CziSbCfwC+gwPEgwDCewDgskq/gArGgwDCfwfIgQC9gRPy2YWcZwDfzJn////z+f/////v05m0bQCp
+        fAf+/9z//P/6//j///rAlEiyfRT//+H7//34+//+//339fP//+y1iCbBfgDDgwHEgwC/ewDhsku+fwvF
+        gQDBfgrFfwDChRLvvVWcaADz58P////6/vv8///38M6sbQ+wkCf///P/+P/6/vz7//3VtX2ZZwD59s//
+        ///5+/7///zv6+H//+a1hSi9ewDBfgPBfgK3dQLdrk24eg69fQO7eg27ewW/ghLPliehbg369+H//P/6
+        //H9/vz///CldCy5plP///z/+P/6/f75//7q0qyFXADw5rv////6/f7///3q5+H///CogkGteyWtfCe4
+        gCOveR/Qq1+zfSi1fx+yfCixfiKzfiWoeSSwklD///T/+v37//D9//b///+qkWjUyZb///799v/7+v79
+        //v079qDaSjb0Kv//v/5//77/f/5+vn9//z779D/78b/8cz/8MD/8MT/+tj/78b/8cD/78f/8MP/8ML/
+        7sX78tD//fj/+Pz1/vb7//T9//z68t7/++H//vr89//8+f/6/PX+/fTw5sL/++P5+v/1/fn4+/72/P7y
+        +/////77//f8//////n7//zx+/3+//79//r+//75//7///v9//36//j8+/j//P/v/v/5//X//vn+/Pj/
+        //L+/vv79v/9+v///vn8/Pn///X+//H3/P////X//f79/fn7///9+vn3/v/0/P///Pn8/fz0/v/+/fz/
+        /vz//v/5/v///f3z+f/w/v/6//3/+frx+//1//j//vr+/P/6/fr5/Pr++v/+/fz7/vv6//r7/P3+//v2
+        //78//f89/z+/fn5/vv+/Pv1/vz3/v///Pf8/v31/P7++/r+/vv//f74/f7//fr8+/70//n2//r++vv3
+        +v/1//j//fz++v/6/vvz/fv/+f////b5/v34/Pf3+v76/P71//j4/vr6+f79/fr4/fz//fv0/fn4+/f/
+        //j8/v32/P/++/3//vr+/v74/v///vj//fj8//Px/fT//vz//P/2//n9+/z++P78/vrz//78+P////L2
+        +/v8//n6+v/4/P71//YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ManualControl</value>
+  </data>
+  <data name="gBoxDoubleIO.Text" xml:space="preserve">
+    <value>Cylinder IO</value>
+  </data>
+  <data name="gBoxSensor.Text" xml:space="preserve">
+    <value>Single IO IN</value>
+  </data>
+  <data name="gBoxSingleIO.Text" xml:space="preserve">
+    <value>Single IO OUT</value>
+  </data>
+  <data name="gBoxUser.Text" xml:space="preserve">
+    <value>Uesr Customized</value>
+  </data>
+</root>

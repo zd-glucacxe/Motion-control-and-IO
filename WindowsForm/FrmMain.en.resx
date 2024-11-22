@@ -1,0 +1,1050 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 21</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 63</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="gBoxAxisControl.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="gBoxAxisControl.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="gBoxAxisControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 88</value>
+  </data>
+  <data name="gBoxAxisControl.Text" xml:space="preserve">
+    <value>Axis Control</value>
+  </data>
+  <data name="radioRelative.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 25</value>
+  </data>
+  <data name="radioRelative.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="radioRelative.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 22</value>
+  </data>
+  <data name="radioRelative.Text" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="radioAbsolutely.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 25</value>
+  </data>
+  <data name="radioAbsolutely.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="radioAbsolutely.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 22</value>
+  </data>
+  <data name="radioAbsolutely.Text" xml:space="preserve">
+    <value>Absolutely</value>
+  </data>
+  <data name="radioContinue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 25</value>
+  </data>
+  <data name="radioContinue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="radioContinue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="radioContinue.Text" xml:space="preserve">
+    <value>Continuity</value>
+  </data>
+  <data name="tabControlMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 35</value>
+  </data>
+  <data name="tabControlMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tabControlMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1185, 973</value>
+  </data>
+  <data name="tPagelog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tPagelog.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tPagelog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tPagelog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tPagelog.Text" xml:space="preserve">
+    <value>Operation Log</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lBoxLog.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lBoxLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 4</value>
+  </data>
+  <data name="lBoxLog.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="lBoxLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1173, 934</value>
+  </data>
+  <data name="tPageManualControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tPageManualControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tPageManualControl.Text" xml:space="preserve">
+    <value>Manual Control</value>
+  </data>
+  <data name="tPageAxisXY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tPageAxisXY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tPageAxisXY.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tPageAxisXY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tPageAxisXY.Text" xml:space="preserve">
+    <value>2D Plane XY Trajectory</value>
+  </data>
+  <data name="chartXY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 4</value>
+  </data>
+  <data name="chartXY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="chartXY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1173, 796</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 800</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1173, 138</value>
+  </data>
+  <data name="btnSetXY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 40</value>
+  </data>
+  <data name="btnSetXY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="btnSetXY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 44</value>
+  </data>
+  <data name="btnSetXY.Text" xml:space="preserve">
+    <value>SetXY</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 80</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 18</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>271, 24</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 18</value>
+  </data>
+  <data name="tBoxYmax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 77</value>
+  </data>
+  <data name="tBoxYmax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tBoxYmax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="tBoxXmax.Location" type="System.Drawing.Point, System.Drawing">
+    <value>297, 21</value>
+  </data>
+  <data name="tBoxXmax.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tBoxXmax.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="tBoxYmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 77</value>
+  </data>
+  <data name="tBoxYmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tBoxYmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="tBoxXmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 21</value>
+  </data>
+  <data name="tBoxXmin.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tBoxXmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 24</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 80</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 18</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 24</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 18</value>
+  </data>
+  <data name="tPageGCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tPageGCode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tPageGCode.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="tPageGCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tPageGCode.Text" xml:space="preserve">
+    <value>G-Code</value>
+  </data>
+  <data name="rBoxGcode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 4</value>
+  </data>
+  <data name="rBoxGcode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="rBoxGcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>999, 934</value>
+  </data>
+  <data name="lBoxGcodeName.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lBoxGcodeName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 4</value>
+  </data>
+  <data name="lBoxGcodeName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 934</value>
+  </data>
+  <data name="lBoxGcodeName.ToolTip" xml:space="preserve">
+    <value>1. Double Click With The Mouse: Renaming
+2. Enter: Name Change Completed
+3. ESC: Cancel Name Change
+4. CTRL+↑: Move G-Code Up
+5. CTRL+↓: Move G-Code Down
+6. ALT+Q: Add G-Code
+7. CTRL+S: Save G-Code
+8. DEL: Delete G-Code
+9. Entering Demonstration Programming Allows Modification Of G-Code</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Array Position</value>
+  </data>
+  <data name="dgvArray1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 936</value>
+  </data>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>X-Axis</value>
+  </data>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Y-Axis</value>
+  </data>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Z-Axis</value>
+  </data>
+  <data name="Column10.HeaderText" xml:space="preserve">
+    <value>Safe Height</value>
+  </data>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>G-Code Index</value>
+  </data>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>In Place</value>
+  </data>
+  <data name="tPageAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tPageAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tPageAlarm.Text" xml:space="preserve">
+    <value>Alarm Log</value>
+  </data>
+  <data name="lBoxAlarm.ItemHeight" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lBoxAlarm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 936</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 27</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1177, 942</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>G-Code Explain Table</value>
+  </data>
+  <data name="GcodeView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="GcodeView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1171, 936</value>
+  </data>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>G-Code Logo</value>
+  </data>
+  <data name="参数.HeaderText" xml:space="preserve">
+    <value>Param</value>
+  </data>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="gBoxBasicOperation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="gBoxBasicOperation.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="gBoxBasicOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 973</value>
+  </data>
+  <data name="gBoxBasicOperation.Text" xml:space="preserve">
+    <value>Basic Operation</value>
+  </data>
+  <data name="panelUserOperation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 456</value>
+  </data>
+  <data name="panelUserOperation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 192</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 21</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 435</value>
+  </data>
+  <data name="btnTeachingProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 339</value>
+  </data>
+  <data name="btnTeachingProgram.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="btnTeachingProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="btnTeachingProgram.Text" xml:space="preserve">
+    <value>Teaching Program</value>
+  </data>
+  <data name="panelSwith.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 59</value>
+  </data>
+  <data name="radioNop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="radioNop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="radioNop.Text" xml:space="preserve">
+    <value>Idling</value>
+  </data>
+  <data name="radioWork.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 22</value>
+  </data>
+  <data name="radioWork.Text" xml:space="preserve">
+    <value>Glueing</value>
+  </data>
+  <data name="btnStrat.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="btnStrat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 156</value>
+  </data>
+  <data name="btnStrat.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="btnStrat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="btnStrat.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="panelAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 60</value>
+  </data>
+  <data name="radioManual.Location" type="System.Drawing.Point, System.Drawing">
+    <value>186, 24</value>
+  </data>
+  <data name="radioManual.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 22</value>
+  </data>
+  <data name="radioManual.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="radioAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 22</value>
+  </data>
+  <data name="radioAuto.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="btnToZero.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="btnToZero.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 251</value>
+  </data>
+  <data name="btnToZero.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="btnToZero.Text" xml:space="preserve">
+    <value>To Zero</value>
+  </data>
+  <data name="btnToHome.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="btnToHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 251</value>
+  </data>
+  <data name="btnToHome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="btnToHome.Text" xml:space="preserve">
+    <value>To Home</value>
+  </data>
+  <data name="btnStop.Font" type="System.Drawing.Font, System.Drawing">
+    <value>宋体, 9pt</value>
+  </data>
+  <data name="btnStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 156</value>
+  </data>
+  <data name="btnStop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="btnStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="btnStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 339</value>
+  </data>
+  <data name="btnReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 62</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 648</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>331, 321</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Current Alarm</value>
+  </data>
+  <data name="rTBoxNowError.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="rTBoxNowError.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 300</value>
+  </data>
+  <data name="panelRight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1520, 35</value>
+  </data>
+  <data name="panelRight.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="panelRight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 973</value>
+  </data>
+  <data name="panelRunStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 178</value>
+  </data>
+  <data name="panelRunStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 795</value>
+  </data>
+  <data name="panelUserStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 211</value>
+  </data>
+  <data name="panelUserStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 584</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 128</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 83</value>
+  </data>
+  <data name="label42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 28</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 18</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Stoping</value>
+  </data>
+  <data name="ColorRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 28</value>
+  </data>
+  <data name="ColorStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>306, 28</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 18</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Runing</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 128</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>HandWheel</value>
+  </data>
+  <data name="ColorHandwheelStop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 78</value>
+  </data>
+  <data name="ColorHandwheelStop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 83</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ColorX100.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 78</value>
+  </data>
+  <data name="ColorX100.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 83</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 18</value>
+  </data>
+  <data name="ColorX10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 78</value>
+  </data>
+  <data name="ColorX10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 83</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 18</value>
+  </data>
+  <data name="ColorX1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 78</value>
+  </data>
+  <data name="ColorX1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 83</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 18</value>
+  </data>
+  <data name="ColorW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>341, 37</value>
+  </data>
+  <data name="ColorW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="labelW.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 41</value>
+  </data>
+  <data name="labelW.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 18</value>
+  </data>
+  <data name="ColorZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 37</value>
+  </data>
+  <data name="ColorZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="labelZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 41</value>
+  </data>
+  <data name="labelZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 18</value>
+  </data>
+  <data name="ColorY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 37</value>
+  </data>
+  <data name="ColorY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="labelY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 41</value>
+  </data>
+  <data name="labelY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 18</value>
+  </data>
+  <data name="ColorX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 37</value>
+  </data>
+  <data name="ColorX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 27</value>
+  </data>
+  <data name="labelX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 41</value>
+  </data>
+  <data name="labelX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 18</value>
+  </data>
+  <data name="gBoxAxisStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 88</value>
+  </data>
+  <data name="gBoxAxisStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="gBoxAxisStatus.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 4, 2, 4</value>
+  </data>
+  <data name="gBoxAxisStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>404, 90</value>
+  </data>
+  <data name="gBoxAxisStatus.Text" xml:space="preserve">
+    <value>Axis Status</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 21</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 65</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 17</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 18</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 17</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 18</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 36</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Negative
+ Limit</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 17</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 36</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Positive
+ Limit</value>
+  </data>
+  <data name="menuTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1924, 35</value>
+  </data>
+  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 31</value>
+  </data>
+  <data name="MenuFile.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="btnOpenGcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="btnOpenGcode.Text" xml:space="preserve">
+    <value>Open G-Code</value>
+  </data>
+  <data name="btnSaveGcode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="btnSaveGcode.Text" xml:space="preserve">
+    <value>Save G-Code</value>
+  </data>
+  <data name="btnSaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="btnSaveAs.Text" xml:space="preserve">
+    <value>Save As G-Code</value>
+  </data>
+  <data name="MenuAuthority.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 31</value>
+  </data>
+  <data name="MenuAuthority.Text" xml:space="preserve">
+    <value>Authority</value>
+  </data>
+  <data name="MenuConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 31</value>
+  </data>
+  <data name="MenuConfig.Text" xml:space="preserve">
+    <value>Param Set</value>
+  </data>
+  <data name="ToolSysConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="ToolSysConfig.Text" xml:space="preserve">
+    <value>System Param</value>
+  </data>
+  <data name="ToolInitConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="ToolInitConfig.Text" xml:space="preserve">
+    <value>Software Config</value>
+  </data>
+  <data name="ToolAxisConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 32</value>
+  </data>
+  <data name="ToolAxisConfig.Text" xml:space="preserve">
+    <value>Axis Param</value>
+  </data>
+  <data name="阵列ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 31</value>
+  </data>
+  <data name="阵列ToolStripMenuItem.Text" xml:space="preserve">
+    <value>Array</value>
+  </data>
+  <data name="ToolOpenModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 32</value>
+  </data>
+  <data name="ToolOpenModel.Text" xml:space="preserve">
+    <value>Open Template</value>
+  </data>
+  <data name="ToolSaveModel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 32</value>
+  </data>
+  <data name="ToolSaveModel.Text" xml:space="preserve">
+    <value>Save Template</value>
+  </data>
+  <data name="ToolLock.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 32</value>
+  </data>
+  <data name="ToolLock.Text" xml:space="preserve">
+    <value>Locking</value>
+  </data>
+  <data name="MenuOther.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 31</value>
+  </data>
+  <data name="MenuOther.Text" xml:space="preserve">
+    <value>Other Function</value>
+  </data>
+  <data name="ToolIOControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 32</value>
+  </data>
+  <data name="ToolIOControl.Text" xml:space="preserve">
+    <value>IO Control</value>
+  </data>
+  <data name="导入DXFToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 32</value>
+  </data>
+  <data name="导入DXFToolStripMenuItem.Text" xml:space="preserve">
+    <value>Load DXF</value>
+  </data>
+  <data name="ToolBarCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 35</value>
+  </data>
+  <data name="ToolBarCode.Text" xml:space="preserve">
+    <value>Barcode:</value>
+  </data>
+  <data name="toolBoxBarCode.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="statusShowTool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 1008</value>
+  </data>
+  <data name="statusShowTool.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 0, 12, 0</value>
+  </data>
+  <data name="statusShowTool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1924, 30</value>
+  </data>
+  <data name="ColorCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 24</value>
+  </data>
+  <data name="ColorCard.Text" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="ColorMES.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 24</value>
+  </data>
+  <data name="ColorMES.Text" xml:space="preserve">
+    <value>MES</value>
+  </data>
+  <data name="ColorGlue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="ColorGlue.Text" xml:space="preserve">
+    <value>Glue</value>
+  </data>
+  <data name="LabelWorkTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 24</value>
+  </data>
+  <data name="LabelWorkTime.Text" xml:space="preserve">
+    <value>Working Time:</value>
+  </data>
+  <data name="LabelWeldNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 24</value>
+  </data>
+  <data name="LabelWeldNum.Text" xml:space="preserve">
+    <value>AutoRun Number:</value>
+  </data>
+  <data name="LabelOneTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 24</value>
+  </data>
+  <data name="LabelOneTime.Text" xml:space="preserve">
+    <value>Single Time:</value>
+  </data>
+  <data name="LabelVel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 24</value>
+  </data>
+  <data name="LabelVel.Text" xml:space="preserve">
+    <value>Current Speed:</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 24</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>Template File:</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 18</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1924, 1038</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAAAAACoDAAAFgAAACgAAAAgAAAAQAAAAAEAGAAAAAAAgAwAAAAAAAAAAAAAAAAAAAAA
+        AAD4//X9//r//P//+v//+v///f7///j8//f8//z//vz//fz//vz///78/f75/v3+//n9//z6/v77/f//
+        /f3///79//3///r///v///78/f79/f////7///v///v////////4/v79/v7//P///P/+/P/9/vv7//b9
+        /vj//vv///r///v///v+///4/P/4/f7+//r8///5/v/8/P///v3////9/////vz///39///5/f/6/f/9
+        //////3//vz////////4+f/9/f///v7+/v34/P33/vz4//v+/vr//fn+/vv6/fn7/vz9/vz+/P3+/f3+
+        //v7/v/4+//6+v///f7//f37/f78/fz9/v76/Pz6/f/4+//6/P77+/r+/v7////////7+////v3///j8
+        /vj2/v70/v/3/P74+ff9//v4//z5/v/2/Pz9/vz//fb//vf+//36/P/4+v///v/7+Pf///39+/35/P36
+        /f77///2+vv7/f35/v76/f38/f3////////8//////n///P6//j1/v7y+f/7+v/6/Pf5//r4//z4/f/3
+        /v/6/Pr///b//vP+/v/6+//7/P/+/fz+/ff9+vT++/34+/z5/f38/P39/vz8/fr8/f73+/z5/Pz/////
+        ///8//7///f///X8//v3/v/7/f7//fT///T///b///r///j///j8//r5//z1/fz9/v/7/P/9/f7//vn/
+        //L//vT9+vz3+/z5/f3///39+fD//fb+/fn4/fz4+/z9///9///7/v3//vr//vz7/P73/P3+//X//+bw
+        5rXfvIHOrGrcvXjq36j//OH9//33+//9/f78/f/+/vz///L//+3+/O3//f36/f77/vz++e7///b///T/
+        /fT7/fz6//78//78//77/P///f///f76+//5+/r//+3KuX+qdB62bgq2cwKvcQCodQrDoFj//+n//f/+
+        /f79/f////ru7tisqIL///H//fr7/f39//v//fL68dmvoof///L8/fn6/v75/v75///9/f76//3///X1
+        /P7///zm0JeebAbBfALKfQHHfQjIfwK+fwGlcQDLpmL////8///3+/3///zUyZiAXgz/99T///36/fn3
+        +Pz////bzpd+XhL58s/8//35/f/2/f7m+vv9//v4/v7///P5//3//+2fdB/DgALLggDPhAHGfgjMgAHD
+        ggDChACkbQbx5cr8///6/v////rGq2CkawDq2Kn////7/vf5+v/////NqFabbgDn2qT+///8/P38/v/D
+        1db+//n4/f///fn////k27KgcAzCgAHIggDGfwDGfgHPgwDEggC/ggKwdQLKsHz////+//r///yxjzyr
+        bQDYtn7///v9//n6+/////+4hyykcADavIH9/////Pj//P75/v////j4+///+/7////FsHKyegLIgQDD
+        gAPEgQHLgwHOhADFgwLAgALDfgCyjz3///////f//+ineRjBfQC7jkf///n8/vr5+////+isbwW3fgLA
+        l1H///////j99fb39vb///f4+///+v////q0lES9fQDNhQDBfwPDggLCgADJgQDIgQLEgAXMgQCwgBf/
+        /+3///3z6cWocQXAeQCydiD//+L4//z+///t3rO1bwCydwC4gi7///b//vX+/f39/Pv+//n0/P/9/P//
+        //OzhzHKgwDOhQLBfgHAfwDLjxHDgALJgAPIfwTShgCwfgv49uH////i0p6obgDSkBuvbQ327cP6////
+        ///avHy7cwDAiyGxcRP49dz///v7+/r4/vv9//j0/P/7/v///+y4hS7LfQDKgQHHgADCfADntEC8fgzL
+        fgPKfgPLgQCwfAv289r////OsW6jagD/2XqnYwDeypH8///////Fl0a2cgXizHiuZQHr3rP8///3//72
+        /v78//zz//74//z//+u8gy7KfALGgAPNggDEewDlskq0exPOfgLLfgTHgACveg7389j///+1jj2odBD/
+        /8qnZgTApF7//////+6xeRvAii/68rqpYADfv4H9///4/v73/v/6///2//35//v//+y7gi/HegXFfwPN
+        ggDEegDlr06yeRXOfwDJgAPBfgSueRL49dn///Oqex60iTH//+6yeiKshTT//+/17s2qbQjKqWD//+Cq
+        ZArKpFb////8/f76/f/8///5/v77/////+25hC7DfAPFgQLKggDDegDlr0+2eRPPggDIgwO+fAWydxP6
+        99j17dKlbgnKr2b////GnlaicBD//tPk0JmhYgDazqH///O2eyu1hS3//+z//v76//79//7+/f7+/v//
+        /+63hyrAfgDEggLHgQDBegDor026eg/RgwDDhQK+fga4eBD7+dbp1qqcYQDg05j////bxIqhZQDz6q7W
+        rWidYAD7+t////fJmlijbhD4+NP///75//z///3//f7//f///++4iCbCgQDFggDFgADAegDnrky9ewzQ
+        hADDhgPAfgK8eQ///tnXtnygZgD58Lz////257ieYgDkzX7DlkCqdBP///r///XTtYGbZALw7b3///71
+        //v7/f7+/vf6/P////S5hyXLfgDHgATGgQHFeQDisEu/fQzNgwDCgAXMgAC5eBH//9W/lkWjcw///9//
+        /f/9/tyjeBfFlSvBfxWzk0f///n////r3LqZYwDt0Jr////a9fT+/P3///P7/v////K7iyLQfwDJgATH
+        ggLFegDesE29fgvJgwDCfgfMggC1eRT888SygCSyizP///P//f///++4kTm2eAK2dADOwIb///X////3
+        89ykbQLUsG3///+3zs7/+/z///L+/vz///C8iyPNgADGhALGhAHDegDfsU28gAvIgwDAfwfJgQC1fBXw
+        6LGjcQ7EqGH////4+v/////QrV69eQCqcQDs363///37//n7/eyueRrElT7///Lz///4+f////v8/v//
+        //CziSbCfwC+gwPEgwDCewDgskq/gArGgwDCfwfIgQC9gRPy2YWcZwDfzJn////z+f/////v05m0bQCp
+        fAf+/9z//P/6//j///rAlEiyfRT//+H7//34+//+//339fP//+y1iCbBfgDDgwHEgwC/ewDhsku+fwvF
+        gQDBfgrFfwDChRLvvVWcaADz58P////6/vv8///38M6sbQ+wkCf///P/+P/6/vz7//3VtX2ZZwD59s//
+        ///5+/7///zv6+H//+a1hSi9ewDBfgPBfgK3dQLdrk24eg69fQO7eg27ewW/ghLPliehbg369+H//P/6
+        //H9/vz///CldCy5plP///z/+P/6/f75//7q0qyFXADw5rv////6/f7///3q5+H///CogkGteyWtfCe4
+        gCOveR/Qq1+zfSi1fx+yfCixfiKzfiWoeSSwklD///T/+v37//D9//b///+qkWjUyZb///799v/7+v79
+        //v079qDaSjb0Kv//v/5//77/f/5+vn9//z779D/78b/8cz/8MD/8MT/+tj/78b/8cD/78f/8MP/8ML/
+        7sX78tD//fj/+Pz1/vb7//T9//z68t7/++H//vr89//8+f/6/PX+/fTw5sL/++P5+v/1/fn4+/72/P7y
+        +/////77//f8//////n7//zx+/3+//79//r+//75//7///v9//36//j8+/j//P/v/v/5//X//vn+/Pj/
+        //L+/vv79v/9+v///vn8/Pn///X+//H3/P////X//f79/fn7///9+vn3/v/0/P///Pn8/fz0/v/+/fz/
+        /vz//v/5/v///f3z+f/w/v/6//3/+frx+//1//j//vr+/P/6/fr5/Pr++v/+/fz7/vv6//r7/P3+//v2
+        //78//f89/z+/fn5/vv+/Pv1/vz3/v///Pf8/v31/P7++/r+/vv//f74/f7//fr8+/70//n2//r++vv3
+        +v/1//j//fz++v/6/vvz/fv/+f////b5/v34/Pf3+v76/P71//j4/vr6+f79/fr4/fz//fv0/fn4+/f/
+        //j8/v32/P/++/3//vr+/v74/v///vj//fj8//Px/fT//vz//P/2//n9+/z++P78/vrz//78+P////L2
+        +/v8//n6+v/4/P71//YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+</root>

@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lBoxHomeSort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>353, 184</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>861, 394</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 210</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>To Home Order</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>861, 58</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 328</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Sp-Motion Param</value>
+  </data>
+  <data name="tBoxWeldEndBufVel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 285</value>
+  </data>
+  <data name="label81.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 15</value>
+  </data>
+  <data name="label81.Text" xml:space="preserve">
+    <value>Glue Finish Vel:</value>
+  </data>
+  <data name="label82.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 290</value>
+  </data>
+  <data name="tBoxNopEndBufVel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 252</value>
+  </data>
+  <data name="label83.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 255</value>
+  </data>
+  <data name="label83.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 15</value>
+  </data>
+  <data name="label83.Text" xml:space="preserve">
+    <value>Idling Finish Vel:</value>
+  </data>
+  <data name="label84.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 257</value>
+  </data>
+  <data name="tBoxAutoDec_Welding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 203</value>
+  </data>
+  <data name="tBoxAutoAcc_Welding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 168</value>
+  </data>
+  <data name="tBoxautoSpeedWeld.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 133</value>
+  </data>
+  <data name="tBoxAutoDec_Nop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 98</value>
+  </data>
+  <data name="tBoxAutoAcc_Nop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 63</value>
+  </data>
+  <data name="tBoxAutoNopSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 28</value>
+  </data>
+  <data name="label85.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 208</value>
+  </data>
+  <data name="label86.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 174</value>
+  </data>
+  <data name="label87.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 208</value>
+  </data>
+  <data name="label87.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label87.Text" xml:space="preserve">
+    <value>Glue Dec:</value>
+  </data>
+  <data name="label88.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 171</value>
+  </data>
+  <data name="label88.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label88.Text" xml:space="preserve">
+    <value>Glue Acc:</value>
+  </data>
+  <data name="label89.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 32</value>
+  </data>
+  <data name="label89.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 15</value>
+  </data>
+  <data name="label89.Text" xml:space="preserve">
+    <value>Idling Vel:</value>
+  </data>
+  <data name="label90.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 33</value>
+  </data>
+  <data name="label91.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 136</value>
+  </data>
+  <data name="label91.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label91.Text" xml:space="preserve">
+    <value>Glue Vel:</value>
+  </data>
+  <data name="label92.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 138</value>
+  </data>
+  <data name="label93.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 103</value>
+  </data>
+  <data name="label94.Location" type="System.Drawing.Point, System.Drawing">
+    <value>276, 68</value>
+  </data>
+  <data name="label95.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 101</value>
+  </data>
+  <data name="label95.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 15</value>
+  </data>
+  <data name="label95.Text" xml:space="preserve">
+    <value>Idling Dec:</value>
+  </data>
+  <data name="label96.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 66</value>
+  </data>
+  <data name="label96.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 15</value>
+  </data>
+  <data name="label96.Text" xml:space="preserve">
+    <value>Idling Acc:</value>
+  </data>
+  <data name="gBoxAxis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>824, 547</value>
+  </data>
+  <data name="gBoxAxis.Text" xml:space="preserve">
+    <value>X-Axis Param</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 350</value>
+  </data>
+  <data name="tBoxAutoSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 345</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 350</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Auto Vel:</value>
+  </data>
+  <data name="tBoxName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 385</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>520, 389</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Axis Name</value>
+  </data>
+  <data name="tBoxSramp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 303</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 308</value>
+  </data>
+  <data name="label48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, 308</value>
+  </data>
+  <data name="label48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 15</value>
+  </data>
+  <data name="label48.Text" xml:space="preserve">
+    <value>S-Curve Time:</value>
+  </data>
+  <data name="tBoxLspeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 307</value>
+  </data>
+  <data name="label49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 309</value>
+  </data>
+  <data name="label50.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 309</value>
+  </data>
+  <data name="label50.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 15</value>
+  </data>
+  <data name="label50.Text" xml:space="preserve">
+    <value>Start Vel:</value>
+  </data>
+  <data name="tBoxHomeSpeed_H.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 103</value>
+  </data>
+  <data name="label51.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 108</value>
+  </data>
+  <data name="label51.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 15</value>
+  </data>
+  <data name="label51.Text" xml:space="preserve">
+    <value>To Home High Vel:</value>
+  </data>
+  <data name="label52.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 108</value>
+  </data>
+  <data name="tBoxOffsetSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>619, 263</value>
+  </data>
+  <data name="label53.Location" type="System.Drawing.Point, System.Drawing">
+    <value>737, 268</value>
+  </data>
+  <data name="tBoxScrewPitch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 107</value>
+  </data>
+  <data name="label54.Location" type="System.Drawing.Point, System.Drawing">
+    <value>504, 269</value>
+  </data>
+  <data name="label54.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 15</value>
+  </data>
+  <data name="label54.Text" xml:space="preserve">
+    <value>Offset Vel:</value>
+  </data>
+  <data name="label64.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 15</value>
+  </data>
+  <data name="label64.Text" xml:space="preserve">
+    <value>Home Offset Distance:</value>
+  </data>
+  <data name="label60.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 269</value>
+  </data>
+  <data name="tBoxAxisSinglePulse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 63</value>
+  </data>
+  <data name="tBoxAxisOffset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>195, 267</value>
+  </data>
+  <data name="tBoxReductionRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 67</value>
+  </data>
+  <data name="tBoxAxisSoftLimit_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 223</value>
+  </data>
+  <data name="tBoxAxisSoftLimit_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 227</value>
+  </data>
+  <data name="tBoxAxisSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 147</value>
+  </data>
+  <data name="tBoxHomeSpeed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 143</value>
+  </data>
+  <data name="tBoxAxisAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 187</value>
+  </data>
+  <data name="tBoxAxisDec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 183</value>
+  </data>
+  <data name="label55.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 437</value>
+  </data>
+  <data name="label55.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 90</value>
+  </data>
+  <data name="label55.Text" xml:space="preserve">
+    <value>Remarks:
+When The IO Signal Is Configured As -1,
+Indicates The Cancellation Of The Current Configuration
+ALT+HOME: Reset To Origin
+CTRL+↑: Move Up To The Original Axis
+CTRL+↓: Move Down To The Original Axis</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>317, 171</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Special Input Signal</value>
+  </data>
+  <data name="tBoxServoAlarm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 131</value>
+  </data>
+  <data name="tBoxLimit_N.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 95</value>
+  </data>
+  <data name="tBoxHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 23</value>
+  </data>
+  <data name="tBoxLimit_P.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 59</value>
+  </data>
+  <data name="label56.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 133</value>
+  </data>
+  <data name="label56.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 15</value>
+  </data>
+  <data name="label56.Text" xml:space="preserve">
+    <value>Driver Alarm Index:</value>
+  </data>
+  <data name="label57.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 25</value>
+  </data>
+  <data name="label57.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 15</value>
+  </data>
+  <data name="label57.Text" xml:space="preserve">
+    <value>Origin Index:</value>
+  </data>
+  <data name="label58.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 97</value>
+  </data>
+  <data name="label58.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 15</value>
+  </data>
+  <data name="label58.Text" xml:space="preserve">
+    <value>Negative Limit Index:</value>
+  </data>
+  <data name="label59.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 61</value>
+  </data>
+  <data name="label59.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 15</value>
+  </data>
+  <data name="label59.Text" xml:space="preserve">
+    <value>Positive Limit Index:</value>
+  </data>
+  <data name="label61.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 30</value>
+  </data>
+  <data name="label61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 15</value>
+  </data>
+  <data name="label61.Text" xml:space="preserve">
+    <value>To Home Type:</value>
+  </data>
+  <data name="cboxAxistype.Items" xml:space="preserve">
+    <value>Origin As Home</value>
+  </data>
+  <data name="cboxAxistype.Items1" xml:space="preserve">
+    <value>Limit As Home</value>
+  </data>
+  <data name="cboxAxistype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 29</value>
+  </data>
+  <data name="cboxAxistype.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="label62.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 69</value>
+  </data>
+  <data name="label62.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 15</value>
+  </data>
+  <data name="label62.Text" xml:space="preserve">
+    <value>Pulses:</value>
+  </data>
+  <data name="label63.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 70</value>
+  </data>
+  <data name="label63.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 15</value>
+  </data>
+  <data name="label63.Text" xml:space="preserve">
+    <value>Reduction Ratio:</value>
+  </data>
+  <data name="label65.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 109</value>
+  </data>
+  <data name="label66.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 109</value>
+  </data>
+  <data name="label66.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 15</value>
+  </data>
+  <data name="label66.Text" xml:space="preserve">
+    <value>Pitch:</value>
+  </data>
+  <data name="label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>560, 189</value>
+  </data>
+  <data name="label67.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="label67.Text" xml:space="preserve">
+    <value>Dec:</value>
+  </data>
+  <data name="label68.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 188</value>
+  </data>
+  <data name="label69.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 228</value>
+  </data>
+  <data name="label70.Location" type="System.Drawing.Point, System.Drawing">
+    <value>432, 229</value>
+  </data>
+  <data name="label70.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 15</value>
+  </data>
+  <data name="label70.Text" xml:space="preserve">
+    <value>Negative Soft Limit:</value>
+  </data>
+  <data name="label71.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 229</value>
+  </data>
+  <data name="label116.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 29</value>
+  </data>
+  <data name="label116.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 15</value>
+  </data>
+  <data name="label116.Text" xml:space="preserve">
+    <value>To Home Dir:</value>
+  </data>
+  <data name="label72.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 230</value>
+  </data>
+  <data name="label72.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 15</value>
+  </data>
+  <data name="label72.Text" xml:space="preserve">
+    <value>Positive Soft Limit:</value>
+  </data>
+  <data name="cboxAxisHomeDirection.Items" xml:space="preserve">
+    <value>Positive Dir</value>
+  </data>
+  <data name="cboxAxisHomeDirection.Items1" xml:space="preserve">
+    <value>Negative Dir</value>
+  </data>
+  <data name="cboxAxisHomeDirection.Location" type="System.Drawing.Point, System.Drawing">
+    <value>620, 25</value>
+  </data>
+  <data name="cboxAxisHomeDirection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 23</value>
+  </data>
+  <data name="label73.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 149</value>
+  </data>
+  <data name="label73.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 15</value>
+  </data>
+  <data name="label73.Text" xml:space="preserve">
+    <value>Manual Vel:</value>
+  </data>
+  <data name="label74.Location" type="System.Drawing.Point, System.Drawing">
+    <value>464, 149</value>
+  </data>
+  <data name="label74.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 15</value>
+  </data>
+  <data name="label74.Text" xml:space="preserve">
+    <value>To Home Low Vel:</value>
+  </data>
+  <data name="label75.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 190</value>
+  </data>
+  <data name="label75.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 15</value>
+  </data>
+  <data name="label75.Text" xml:space="preserve">
+    <value>Acc:</value>
+  </data>
+  <data name="label77.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 189</value>
+  </data>
+  <data name="label78.Location" type="System.Drawing.Point, System.Drawing">
+    <value>739, 148</value>
+  </data>
+  <data name="label79.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 149</value>
+  </data>
+  <data name="label45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 25</value>
+  </data>
+  <data name="label45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 15</value>
+  </data>
+  <data name="label45.Text" xml:space="preserve">
+    <value>Axis Num:</value>
+  </data>
+  <data name="tBoxAxisCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 20</value>
+  </data>
+  <data name="label115.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="label115.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 15</value>
+  </data>
+  <data name="label115.Text" xml:space="preserve">
+    <value>Axis Name:</value>
+  </data>
+  <data name="cboxAxisNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1235, 47</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save Param</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1235, 695</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Frm Axis</value>
+  </data>
+</root>
